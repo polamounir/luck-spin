@@ -480,7 +480,7 @@ const LuckySpinner = () => {
     >
       <div className="container mx-auto px-4 py-8">
         <div className="flex justify-between items-center ">
-          <div className="flex gap-2 fixed top-15 left-20 z-10 shadow-lg rounded-2xl">
+          <div className="flex gap-2 fixed top-15 start-5 z-10 shadow-lg rounded-2xl">
             <button
               onClick={() => setDarkMode(!darkMode)}
               className={`p-2 rounded-lg ${
