@@ -756,12 +756,12 @@ const LuckySpinner = () => {
                         } flex items-center justify-between`}
                       >
                         <span className="font-medium">
-                          #{results.length - index}
+                          {results.length - index}{")"} ⪼
                         </span>
-                        <span className="flex-1 mx-3">{result.text}</span>
-                        <span className="text-sm opacity-75">
+                        <span className="flex-1 mx-10 font-bold">{result.text}</span>
+                        {/* <span className="text-sm opacity-75">
                           {new Date(result.timestamp).toLocaleTimeString()}
-                        </span>
+                        </span> */}
                       </div>
                     ))
                 )}
