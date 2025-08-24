@@ -503,7 +503,7 @@ const LuckySpinner = () => {
             <div>
               <WheelComponent />
 
-              <div className="mt-6 flex gap-4 justify-center">
+              <div className="mt-6 flex gap-4 justify-center relative z-20 ">
                 <button
                   onClick={spin}
                   disabled={
