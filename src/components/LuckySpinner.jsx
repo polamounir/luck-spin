@@ -474,7 +474,7 @@ const LuckySpinner = () => {
 
   return (
     <div
-      className={`min-h-screen transition-colors relative duration-300 ${
+      className={`min-h-screen max-w-full overflow-x-hidden transition-colors relative duration-300 ${
         darkMode ? "bg-gray-900 text-white" : "bg-gray-50 text-gray-900"
       }`}
     >
