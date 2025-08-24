@@ -8,8 +8,11 @@ function App() {
   return (
     <>
       <div className=" relative">
-        <h2 className="fixed top-10 start-5 z-10 font-semibold text-xl text-sky-600 animate-pulse duration-500">&copy; By Pola Mounir</h2>
         <LuckySpinner />
+{/*         <h2 className="fixed top-10 start-5 z-10 font-semibold text-xl text-sky-600 animate-pulse duration-500">&copy; By Pola Mounir</h2> */}
+        <div className="flex justify-center items-center p-5">
+          <h2 className=" font-semibold text-xl text-sky-600 animate-pulse duration-500">&copy; By Pola Mounir</h2>
+        </div>
       </div>
     </>
   );
