@@ -783,7 +783,11 @@ const LuckySpinner = () => {
             </div>
           </div>
         </div>
+
       </div>
+        <div className="flex justify-center items-center p-5">
+          <h2 className=" font-semibold text-xl text-sky-600 animate-pulse duration-500">&copy; By Pola Mounir</h2>
+        </div>
 
       <ConfirmationModal
         isOpen={modalState.isOpen}
