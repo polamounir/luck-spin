@@ -1,0 +1,36 @@
+body {
+/*   background-image: url("/bg.png");
+  background-repeat: repeat; */
+}
+.header-submenue-footer {
+  box-shadow: 0 -5px 20px 0px rgba(199, 199, 199, 0.555);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #272e33 #b7d0f3; /* Indigo thumb, dark gray track */
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937; /* Dark gray track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6366f1, #4f46e5); /* Indigo gradient */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #818cf8, #6366f1); /* Brighter hover */
+}
